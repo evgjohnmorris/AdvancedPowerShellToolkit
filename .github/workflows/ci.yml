@@ -1,0 +1,26 @@
+name: PowerShell Toolkit CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run PowerShell Script Analyzer
+      shell: pwsh
+      run: |
+        Install-Module -Name PSScriptAnalyzer -Force -Scope CurrentUser
+        Invoke-ScriptAnalyzer -Path ./AdvancedPowerShellToolkit.psm1 -Recurse -Severity Error
+        
+    - name: Import Module Test
+      shell: pwsh
+      run: |
+        Import-Module ./AdvancedPowerShellToolkit.psd1 -ErrorAction Stop
+        Write-Output "Module imported successfully."
