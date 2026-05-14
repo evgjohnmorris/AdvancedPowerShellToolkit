@@ -1,0 +1,148 @@
+# Tasks: NetworkingSecurity
+
+## Fully Implemented
+- [x] `Copy-DHCPLeaseToFilter.ps1`
+- [x] `Flush-DnsCacheRemote.ps1`
+- [x] `Get-DhcpScopeUtilization.ps1`
+- [x] `Get-DnsRecordStatus.ps1`
+- [x] `Get-NetworkPrinterIP.ps1`
+- [x] `Get-NetworkPrinterShare.ps1`
+- [x] `Get-WindowsCertificateStatus.ps1`
+- [x] `Get-WindowsNetworkSession.ps1`
+- [x] `New-MappedNetworkDrive.ps1`
+- [x] `New-SecureCredentialFile.ps1`
+- [x] `Sync-DHCPMacFilter.ps1`
+- [x] `Test-NetworkLatency.ps1`
+- [x] `Test-NetworkPortSweep.ps1`
+- [x] `Test-NetworkWanSpeed.ps1`
+- [x] `Test-WindowsNetworkPort.ps1`
+
+## Stubs
+- [ ] `Clear-DnsServerCache.ps1`
+- [ ] `Disable-VpnConnection.ps1`
+- [ ] `Enable-VpnConnection.ps1`
+- [ ] `Export-SSLCertificate.ps1`
+- [ ] `Get-AWSSecurityGroupRule.ps1`
+- [ ] `Get-DhcpServerFailoverStatus.ps1`
+- [ ] `Get-DhcpServerLease.ps1`
+- [ ] `Get-DnsServerZone.ps1`
+- [ ] `Get-DnsZoneTransfer.ps1`
+- [ ] `Get-IpsecConfiguration.ps1`
+- [ ] `Get-LocalSecurityPolicy.ps1`
+- [ ] `Get-NetFirewallRule.ps1`
+- [ ] `Get-NetIpsecTunnel.ps1`
+- [ ] `Get-NetNpsNetworkPolicy.ps1`
+- [ ] `Get-NetProxyConfiguration.ps1`
+- [ ] `Get-NetQosPolicy.ps1`
+- [ ] `Get-NetRadiusClient.ps1`
+- [ ] `Get-NetRouteTable.ps1`
+- [ ] `Get-NetVlanConfiguration.ps1`
+- [ ] `Get-NetVpnProfile.ps1`
+- [ ] `Get-NetWifiProfile.ps1`
+- [ ] `Get-NetworkInterfaceMetric.ps1`
+- [ ] `Get-NetworkRouteTable.ps1`
+- [ ] `Get-SecAppLockerRule.ps1`
+- [ ] `Get-SecAttackSurfaceReduction.ps1`
+- [ ] `Get-SecBitLockerPolicy.ps1`
+- [ ] `Get-SecCredentialGuard.ps1`
+- [ ] `Get-SecDefenderPolicy.ps1`
+- [ ] `Get-SecEventAuditPolicy.ps1`
+- [ ] `Get-SecExploitGuard.ps1`
+- [ ] `Get-SecLapsPolicy.ps1`
+- [ ] `Get-SecPkiCertificate.ps1`
+- [ ] `Get-SecSysmonConfiguration.ps1`
+- [ ] `Get-SSLCertificateExpiry.ps1`
+- [ ] `Get-VpnConnectionStatus.ps1`
+- [ ] `Get-WindowsAppLockerPolicy.ps1`
+- [ ] `Get-WindowsAuditPolicy.ps1`
+- [ ] `Get-WindowsDefenderStatus.ps1`
+- [ ] `Get-WindowsEventLogSecurity.ps1`
+- [ ] `Import-SSLCertificate.ps1`
+- [ ] `Invoke-NetFirewallRule.ps1`
+- [ ] `Invoke-NetIpsecTunnel.ps1`
+- [ ] `Invoke-NetNpsNetworkPolicy.ps1`
+- [ ] `Invoke-NetProxyConfiguration.ps1`
+- [ ] `Invoke-NetQosPolicy.ps1`
+- [ ] `Invoke-NetRadiusClient.ps1`
+- [ ] `Invoke-NetRouteTable.ps1`
+- [ ] `Invoke-NetVlanConfiguration.ps1`
+- [ ] `Invoke-NetVpnProfile.ps1`
+- [ ] `Invoke-NetWifiProfile.ps1`
+- [ ] `Invoke-SecAppLockerRule.ps1`
+- [ ] `Invoke-SecAttackSurfaceReduction.ps1`
+- [ ] `Invoke-SecBitLockerPolicy.ps1`
+- [ ] `Invoke-SecCredentialGuard.ps1`
+- [ ] `Invoke-SecDefenderPolicy.ps1`
+- [ ] `Invoke-SecEventAuditPolicy.ps1`
+- [ ] `Invoke-SecExploitGuard.ps1`
+- [ ] `Invoke-SecLapsPolicy.ps1`
+- [ ] `Invoke-SecPkiCertificate.ps1`
+- [ ] `Invoke-SecSysmonConfiguration.ps1`
+- [ ] `Invoke-WindowsDefenderScan.ps1`
+- [ ] `New-NetFirewallRule.ps1`
+- [ ] `New-NetIpsecTunnel.ps1`
+- [ ] `New-NetNpsNetworkPolicy.ps1`
+- [ ] `New-NetProxyConfiguration.ps1`
+- [ ] `New-NetQosPolicy.ps1`
+- [ ] `New-NetRadiusClient.ps1`
+- [ ] `New-NetRouteTable.ps1`
+- [ ] `New-NetVlanConfiguration.ps1`
+- [ ] `New-NetVpnProfile.ps1`
+- [ ] `New-NetWifiProfile.ps1`
+- [ ] `New-SecAppLockerRule.ps1`
+- [ ] `New-SecAttackSurfaceReduction.ps1`
+- [ ] `New-SecBitLockerPolicy.ps1`
+- [ ] `New-SecCredentialGuard.ps1`
+- [ ] `New-SecDefenderPolicy.ps1`
+- [ ] `New-SecEventAuditPolicy.ps1`
+- [ ] `New-SecExploitGuard.ps1`
+- [ ] `New-SecLapsPolicy.ps1`
+- [ ] `New-SecPkiCertificate.ps1`
+- [ ] `New-SecSysmonConfiguration.ps1`
+- [ ] `Remove-DhcpServerLease.ps1`
+- [ ] `Remove-DnsServerRecord.ps1`
+- [ ] `Remove-NetFirewallRule.ps1`
+- [ ] `Remove-NetIpsecTunnel.ps1`
+- [ ] `Remove-NetNpsNetworkPolicy.ps1`
+- [ ] `Remove-NetProxyConfiguration.ps1`
+- [ ] `Remove-NetQosPolicy.ps1`
+- [ ] `Remove-NetRadiusClient.ps1`
+- [ ] `Remove-NetRouteTable.ps1`
+- [ ] `Remove-NetVlanConfiguration.ps1`
+- [ ] `Remove-NetVpnProfile.ps1`
+- [ ] `Remove-NetWifiProfile.ps1`
+- [ ] `Remove-SecAppLockerRule.ps1`
+- [ ] `Remove-SecAttackSurfaceReduction.ps1`
+- [ ] `Remove-SecBitLockerPolicy.ps1`
+- [ ] `Remove-SecCredentialGuard.ps1`
+- [ ] `Remove-SecDefenderPolicy.ps1`
+- [ ] `Remove-SecEventAuditPolicy.ps1`
+- [ ] `Remove-SecExploitGuard.ps1`
+- [ ] `Remove-SecLapsPolicy.ps1`
+- [ ] `Remove-SecPkiCertificate.ps1`
+- [ ] `Remove-SecSysmonConfiguration.ps1`
+- [ ] `Request-SSLCertificate.ps1`
+- [ ] `Set-DhcpServerFailover.ps1`
+- [ ] `Set-DnsZoneTransfer.ps1`
+- [ ] `Set-NetFirewallRule.ps1`
+- [ ] `Set-NetIpsecTunnel.ps1`
+- [ ] `Set-NetNpsNetworkPolicy.ps1`
+- [ ] `Set-NetProxyConfiguration.ps1`
+- [ ] `Set-NetQosPolicy.ps1`
+- [ ] `Set-NetRadiusClient.ps1`
+- [ ] `Set-NetRouteTable.ps1`
+- [ ] `Set-NetVlanConfiguration.ps1`
+- [ ] `Set-NetVpnProfile.ps1`
+- [ ] `Set-NetWifiProfile.ps1`
+- [ ] `Set-NetworkInterfaceMetric.ps1`
+- [ ] `Set-SecAppLockerRule.ps1`
+- [ ] `Set-SecAttackSurfaceReduction.ps1`
+- [ ] `Set-SecBitLockerPolicy.ps1`
+- [ ] `Set-SecCredentialGuard.ps1`
+- [ ] `Set-SecDefenderPolicy.ps1`
+- [ ] `Set-SecEventAuditPolicy.ps1`
+- [ ] `Set-SecExploitGuard.ps1`
+- [ ] `Set-SecLapsPolicy.ps1`
+- [ ] `Set-SecPkiCertificate.ps1`
+- [ ] `Set-SecSysmonConfiguration.ps1`
+- [ ] `Test-NetworkSubnetAvailability.ps1`

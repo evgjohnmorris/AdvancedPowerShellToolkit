@@ -1,0 +1,129 @@
+# Tasks: ExchangeM365
+
+## Fully Implemented
+- [x] `Connect-M365Services.ps1`
+- [x] `Convert-M365MailboxToShared.ps1`
+- [x] `Get-ExchangeMailboxSize.ps1`
+- [x] `Get-M365InactiveMailbox.ps1`
+- [x] `Get-M365MailboxPermission.ps1`
+- [x] `Get-M365MessageTrace.ps1`
+- [x] `Get-M365MFAStatus.ps1`
+- [x] `Get-M365SharePointSiteMember.ps1`
+- [x] `Move-M365OneDriveData.ps1`
+- [x] `Remove-M365OneDriveIRM.ps1`
+- [x] `Set-EXOMailboxAuditing.ps1`
+- [x] `Set-M365MailboxForwarding.ps1`
+- [x] `Set-M365PlannerLicense.ps1`
+
+## Stubs
+- [ ] `Find-M365ExternalGuest.ps1`
+- [ ] `Get-EXOMailboxAutoReply.ps1`
+- [ ] `Get-EXOMailboxFolderPermission.ps1`
+- [ ] `Get-M365AcceptedDomain.ps1`
+- [ ] `Get-M365AntiPhishingPolicy.ps1`
+- [ ] `Get-M365AntiSpamPolicy.ps1`
+- [ ] `Get-M365AuditLog.ps1`
+- [ ] `Get-M365DistributionGroup.ps1`
+- [ ] `Get-M365DKIMConfiguration.ps1`
+- [ ] `Get-M365DlpPolicy.ps1`
+- [ ] `Get-M365DMARCConfiguration.ps1`
+- [ ] `Get-M365EdiscoveryCase.ps1`
+- [ ] `Get-M365MailboxRule.ps1`
+- [ ] `Get-M365MailboxStatistics.ps1`
+- [ ] `Get-M365MailContact.ps1`
+- [ ] `Get-M365RemoteDomain.ps1`
+- [ ] `Get-M365RetentionPolicy.ps1`
+- [ ] `Get-M365SafeAttachmentsPolicy.ps1`
+- [ ] `Get-M365SafeLinksPolicy.ps1`
+- [ ] `Get-M365SecurityScore.ps1`
+- [ ] `Get-M365SensitivityLabel.ps1`
+- [ ] `Get-M365SharedMailbox.ps1`
+- [ ] `Get-M365SPFConfiguration.ps1`
+- [ ] `Get-M365TeamsChannel.ps1`
+- [ ] `Get-M365TransportRule.ps1`
+- [ ] `Get-M365UnifiedGroup.ps1`
+- [ ] `Invoke-M365AcceptedDomain.ps1`
+- [ ] `Invoke-M365AntiPhishingPolicy.ps1`
+- [ ] `Invoke-M365AntiSpamPolicy.ps1`
+- [ ] `Invoke-M365AuditLog.ps1`
+- [ ] `Invoke-M365DistributionGroup.ps1`
+- [ ] `Invoke-M365DKIMConfiguration.ps1`
+- [ ] `Invoke-M365DlpPolicy.ps1`
+- [ ] `Invoke-M365DMARCConfiguration.ps1`
+- [ ] `Invoke-M365EdiscoveryCase.ps1`
+- [ ] `Invoke-M365MailboxRule.ps1`
+- [ ] `Invoke-M365MailContact.ps1`
+- [ ] `Invoke-M365RemoteDomain.ps1`
+- [ ] `Invoke-M365RetentionPolicy.ps1`
+- [ ] `Invoke-M365SafeAttachmentsPolicy.ps1`
+- [ ] `Invoke-M365SafeLinksPolicy.ps1`
+- [ ] `Invoke-M365SensitivityLabel.ps1`
+- [ ] `Invoke-M365SharedMailbox.ps1`
+- [ ] `Invoke-M365SPFConfiguration.ps1`
+- [ ] `Invoke-M365TransportRule.ps1`
+- [ ] `Invoke-M365UnifiedGroup.ps1`
+- [ ] `New-M365AcceptedDomain.ps1`
+- [ ] `New-M365AntiPhishingPolicy.ps1`
+- [ ] `New-M365AntiSpamPolicy.ps1`
+- [ ] `New-M365AuditLog.ps1`
+- [ ] `New-M365DistributionGroup.ps1`
+- [ ] `New-M365DKIMConfiguration.ps1`
+- [ ] `New-M365DlpPolicy.ps1`
+- [ ] `New-M365DMARCConfiguration.ps1`
+- [ ] `New-M365EdiscoveryCase.ps1`
+- [ ] `New-M365MailboxRule.ps1`
+- [ ] `New-M365MailContact.ps1`
+- [ ] `New-M365RemoteDomain.ps1`
+- [ ] `New-M365RetentionPolicy.ps1`
+- [ ] `New-M365SafeAttachmentsPolicy.ps1`
+- [ ] `New-M365SafeLinksPolicy.ps1`
+- [ ] `New-M365SensitivityLabel.ps1`
+- [ ] `New-M365SharedMailbox.ps1`
+- [ ] `New-M365SPFConfiguration.ps1`
+- [ ] `New-M365TeamsChannel.ps1`
+- [ ] `New-M365TransportRule.ps1`
+- [ ] `New-M365UnifiedGroup.ps1`
+- [ ] `Remove-EXOMailboxFolderPermission.ps1`
+- [ ] `Remove-M365AcceptedDomain.ps1`
+- [ ] `Remove-M365AntiPhishingPolicy.ps1`
+- [ ] `Remove-M365AntiSpamPolicy.ps1`
+- [ ] `Remove-M365AuditLog.ps1`
+- [ ] `Remove-M365DistributionGroup.ps1`
+- [ ] `Remove-M365DKIMConfiguration.ps1`
+- [ ] `Remove-M365DlpPolicy.ps1`
+- [ ] `Remove-M365DMARCConfiguration.ps1`
+- [ ] `Remove-M365EdiscoveryCase.ps1`
+- [ ] `Remove-M365ExternalGuest.ps1`
+- [ ] `Remove-M365MailboxRule.ps1`
+- [ ] `Remove-M365MailContact.ps1`
+- [ ] `Remove-M365RemoteDomain.ps1`
+- [ ] `Remove-M365RetentionPolicy.ps1`
+- [ ] `Remove-M365SafeAttachmentsPolicy.ps1`
+- [ ] `Remove-M365SafeLinksPolicy.ps1`
+- [ ] `Remove-M365SensitivityLabel.ps1`
+- [ ] `Remove-M365SharedMailbox.ps1`
+- [ ] `Remove-M365SPFConfiguration.ps1`
+- [ ] `Remove-M365TransportRule.ps1`
+- [ ] `Remove-M365UnifiedGroup.ps1`
+- [ ] `Restore-M365DeletedMailbox.ps1`
+- [ ] `Set-EXOMailboxAutoReply.ps1`
+- [ ] `Set-M365AcceptedDomain.ps1`
+- [ ] `Set-M365AntiPhishingPolicy.ps1`
+- [ ] `Set-M365AntiSpamPolicy.ps1`
+- [ ] `Set-M365AuditLog.ps1`
+- [ ] `Set-M365DistributionGroup.ps1`
+- [ ] `Set-M365DKIMConfiguration.ps1`
+- [ ] `Set-M365DlpPolicy.ps1`
+- [ ] `Set-M365DMARCConfiguration.ps1`
+- [ ] `Set-M365EdiscoveryCase.ps1`
+- [ ] `Set-M365MailboxRule.ps1`
+- [ ] `Set-M365MailContact.ps1`
+- [ ] `Set-M365RemoteDomain.ps1`
+- [ ] `Set-M365RetentionPolicy.ps1`
+- [ ] `Set-M365SafeAttachmentsPolicy.ps1`
+- [ ] `Set-M365SafeLinksPolicy.ps1`
+- [ ] `Set-M365SensitivityLabel.ps1`
+- [ ] `Set-M365SharedMailbox.ps1`
+- [ ] `Set-M365SPFConfiguration.ps1`
+- [ ] `Set-M365TransportRule.ps1`
+- [ ] `Set-M365UnifiedGroup.ps1`

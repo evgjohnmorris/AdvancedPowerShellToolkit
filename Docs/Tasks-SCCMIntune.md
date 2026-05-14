@@ -1,0 +1,123 @@
+# Tasks: SCCMIntune
+
+## Fully Implemented
+- [x] `Enable-WindowsICMP.ps1`
+- [x] `Get-CMClientHealth.ps1`
+- [x] `Get-CMDeploymentSummary.ps1`
+- [x] `Get-IntuneDeviceStatus.ps1`
+- [x] `Get-IntuneNonCompliantDevice.ps1`
+- [x] `Invoke-CMClientAction.ps1`
+- [x] `Invoke-IntuneDeviceSync.ps1`
+- [x] `Remove-CMApplicationDeployment.ps1`
+- [x] `Remove-CMMobileDevice.ps1`
+- [x] `Set-CMMobileDeviceState.ps1`
+
+## Stubs
+- [ ] `Get-CmApplicationDeployment.ps1`
+- [ ] `Get-CmBoundaryGroup.ps1`
+- [ ] `Get-CmClientSettings.ps1`
+- [ ] `Get-CmComplianceBaseline.ps1`
+- [ ] `Get-CMDeviceCollection.ps1`
+- [ ] `Get-CmDistributionPoint.ps1`
+- [ ] `Get-CMEndpointProtectionStatus.ps1`
+- [ ] `Get-CmHardwareInventory.ps1`
+- [ ] `Get-CmManagementPoint.ps1`
+- [ ] `Get-CmSoftwareMetering.ps1`
+- [ ] `Get-CmSoftwareUpdateGroup.ps1`
+- [ ] `Get-CmTaskSequence.ps1`
+- [ ] `Get-CMTaskSequenceDeployment.ps1`
+- [ ] `Get-IntuneAppProtectionPolicy.ps1`
+- [ ] `Get-IntuneCertificateProfile.ps1`
+- [ ] `Get-IntuneCompliancePolicy.ps1`
+- [ ] `Get-IntuneConditionalAccess.ps1`
+- [ ] `Get-IntuneConfigurationProfile.ps1`
+- [ ] `Get-IntuneDeviceCompliance.ps1`
+- [ ] `Get-IntuneDeviceConfiguration.ps1`
+- [ ] `Get-IntuneDeviceEnrollment.ps1`
+- [ ] `Get-IntuneManagedAppStatus.ps1`
+- [ ] `Get-IntuneMobileApp.ps1`
+- [ ] `Get-IntuneSoftwareUpdate.ps1`
+- [ ] `Get-IntuneWindowsAutopilot.ps1`
+- [ ] `Invoke-CmApplicationDeployment.ps1`
+- [ ] `Invoke-CmBoundaryGroup.ps1`
+- [ ] `Invoke-CmClientSettings.ps1`
+- [ ] `Invoke-CmComplianceBaseline.ps1`
+- [ ] `Invoke-CmDistributionPoint.ps1`
+- [ ] `Invoke-CMEndpointProtectionScan.ps1`
+- [ ] `Invoke-CmHardwareInventory.ps1`
+- [ ] `Invoke-CmManagementPoint.ps1`
+- [ ] `Invoke-CmSoftwareMetering.ps1`
+- [ ] `Invoke-CmSoftwareUpdateGroup.ps1`
+- [ ] `Invoke-CmTaskSequence.ps1`
+- [ ] `Invoke-IntuneAppProtectionPolicy.ps1`
+- [ ] `Invoke-IntuneCertificateProfile.ps1`
+- [ ] `Invoke-IntuneCompliancePolicy.ps1`
+- [ ] `Invoke-IntuneConditionalAccess.ps1`
+- [ ] `Invoke-IntuneConfigurationProfile.ps1`
+- [ ] `Invoke-IntuneDeviceConfiguration.ps1`
+- [ ] `Invoke-IntuneDeviceEnrollment.ps1`
+- [ ] `Invoke-IntuneDeviceRetire.ps1`
+- [ ] `Invoke-IntuneDeviceWipe.ps1`
+- [ ] `Invoke-IntuneMobileApp.ps1`
+- [ ] `Invoke-IntuneSoftwareUpdate.ps1`
+- [ ] `Invoke-IntuneWindowsAutopilot.ps1`
+- [ ] `New-CmApplicationDeployment.ps1`
+- [ ] `New-CmBoundaryGroup.ps1`
+- [ ] `New-CmClientSettings.ps1`
+- [ ] `New-CmComplianceBaseline.ps1`
+- [ ] `New-CmDistributionPoint.ps1`
+- [ ] `New-CmHardwareInventory.ps1`
+- [ ] `New-CmManagementPoint.ps1`
+- [ ] `New-CmSoftwareMetering.ps1`
+- [ ] `New-CmSoftwareUpdateGroup.ps1`
+- [ ] `New-CmTaskSequence.ps1`
+- [ ] `New-IntuneAppProtectionPolicy.ps1`
+- [ ] `New-IntuneCertificateProfile.ps1`
+- [ ] `New-IntuneCompliancePolicy.ps1`
+- [ ] `New-IntuneConditionalAccess.ps1`
+- [ ] `New-IntuneConfigurationProfile.ps1`
+- [ ] `New-IntuneDeviceConfiguration.ps1`
+- [ ] `New-IntuneDeviceEnrollment.ps1`
+- [ ] `New-IntuneMobileApp.ps1`
+- [ ] `New-IntuneSoftwareUpdate.ps1`
+- [ ] `New-IntuneWindowsAutopilot.ps1`
+- [ ] `Remove-CmBoundaryGroup.ps1`
+- [ ] `Remove-CmClientSettings.ps1`
+- [ ] `Remove-CmComplianceBaseline.ps1`
+- [ ] `Remove-CMDeviceFromCollection.ps1`
+- [ ] `Remove-CmDistributionPoint.ps1`
+- [ ] `Remove-CmHardwareInventory.ps1`
+- [ ] `Remove-CmManagementPoint.ps1`
+- [ ] `Remove-CmSoftwareMetering.ps1`
+- [ ] `Remove-CmSoftwareUpdateGroup.ps1`
+- [ ] `Remove-CmTaskSequence.ps1`
+- [ ] `Remove-IntuneAppProtectionPolicy.ps1`
+- [ ] `Remove-IntuneCertificateProfile.ps1`
+- [ ] `Remove-IntuneCompliancePolicy.ps1`
+- [ ] `Remove-IntuneConditionalAccess.ps1`
+- [ ] `Remove-IntuneConfigurationProfile.ps1`
+- [ ] `Remove-IntuneDeviceConfiguration.ps1`
+- [ ] `Remove-IntuneDeviceEnrollment.ps1`
+- [ ] `Remove-IntuneMobileApp.ps1`
+- [ ] `Remove-IntuneSoftwareUpdate.ps1`
+- [ ] `Remove-IntuneWindowsAutopilot.ps1`
+- [ ] `Set-CmApplicationDeployment.ps1`
+- [ ] `Set-CmBoundaryGroup.ps1`
+- [ ] `Set-CmClientSettings.ps1`
+- [ ] `Set-CmComplianceBaseline.ps1`
+- [ ] `Set-CmDistributionPoint.ps1`
+- [ ] `Set-CmHardwareInventory.ps1`
+- [ ] `Set-CmManagementPoint.ps1`
+- [ ] `Set-CmSoftwareMetering.ps1`
+- [ ] `Set-CmSoftwareUpdateGroup.ps1`
+- [ ] `Set-CmTaskSequence.ps1`
+- [ ] `Set-IntuneAppProtectionPolicy.ps1`
+- [ ] `Set-IntuneCertificateProfile.ps1`
+- [ ] `Set-IntuneCompliancePolicy.ps1`
+- [ ] `Set-IntuneConditionalAccess.ps1`
+- [ ] `Set-IntuneConfigurationProfile.ps1`
+- [ ] `Set-IntuneDeviceConfiguration.ps1`
+- [ ] `Set-IntuneDeviceEnrollment.ps1`
+- [ ] `Set-IntuneMobileApp.ps1`
+- [ ] `Set-IntuneSoftwareUpdate.ps1`
+- [ ] `Set-IntuneWindowsAutopilot.ps1`

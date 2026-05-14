@@ -1,0 +1,200 @@
+# Tasks: WindowsServer
+
+## Fully Implemented
+- [x] `Archive-DuplicateFile.ps1`
+- [x] `Clear-WindowsTempData.ps1`
+- [x] `Compress-FileArchive.ps1`
+- [x] `Disable-WindowsUAC.ps1`
+- [x] `Enable-WindowsBitLocker.ps1`
+- [x] `Enable-WindowsRDP.ps1`
+- [x] `Find-FileItem.ps1`
+- [x] `Get-ComputerNetInfo.ps1`
+- [x] `Get-DirectoryLargerThan.ps1`
+- [x] `Get-DotNetVersion.ps1`
+- [x] `Get-DuplicateFileItem.ps1`
+- [x] `Get-FileItemAge.ps1`
+- [x] `Get-FolderPermission.ps1`
+- [x] `Get-OrphanedFile.ps1`
+- [x] `Get-WindowsAvailableUpdate.ps1`
+- [x] `Get-WindowsBackupStatus.ps1`
+- [x] `Get-WindowsDiskInfo.ps1`
+- [x] `Get-WindowsEventLogSummary.ps1`
+- [x] `Get-WindowsInstalledSoftware.ps1`
+- [x] `Get-WindowsTimeOffset.ps1`
+- [x] `Get-WindowsUpdateHistory.ps1`
+- [x] `Get-WindowsUptime.ps1`
+- [x] `Install-WindowsFeatureSet.ps1`
+- [x] `Invoke-FileSecureWipe.ps1`
+- [x] `Invoke-WindowsUpdate.ps1`
+- [x] `Move-ClientDataFiles.ps1`
+- [x] `New-CabinetFile.ps1`
+- [x] `Remove-EmptyDirectory.ps1`
+- [x] `Rename-MediaFiles.ps1`
+- [x] `Replace-TextContent.ps1`
+- [x] `Restart-WindowsServer.ps1`
+- [x] `Set-FolderPermission.ps1`
+- [x] `Set-WindowsTimeZone.ps1`
+- [x] `Suspend-WindowsService.ps1`
+- [x] `Test-WindowsArchitecture.ps1`
+- [x] `Test-WindowsPendingReboot.ps1`
+
+## Stubs
+- [ ] `Clear-FileArchiveAttribute.ps1`
+- [ ] `Clear-IISLogFile.ps1`
+- [ ] `Clear-SystemMemoryDump.ps1`
+- [ ] `Clear-WindowsPrinterQueue.ps1`
+- [ ] `Connect-VIServerAuto.ps1`
+- [ ] `Convert-CsvToJson.ps1`
+- [ ] `Convert-JsonToCsv.ps1`
+- [ ] `Copy-FileWithResume.ps1`
+- [ ] `Disconnect-RDSSession.ps1`
+- [ ] `Enable-WindowsRemoteManagement.ps1`
+- [ ] `Export-IISConfiguration.ps1`
+- [ ] `Find-LargeFile.ps1`
+- [ ] `Find-OldFile.ps1`
+- [ ] `Get-CitrixVDAStatus.ps1`
+- [ ] `Get-FileHashDirectory.ps1`
+- [ ] `Get-IISAppPoolStatus.ps1`
+- [ ] `Get-IISLogSummary.ps1`
+- [ ] `Get-IISSiteStatus.ps1`
+- [ ] `Get-ModuleVersionInfo.ps1`
+- [ ] `Get-PsSessionActive.ps1`
+- [ ] `Get-RDSLicenseServer.ps1`
+- [ ] `Get-RDSSession.ps1`
+- [ ] `Get-RegistryKeyItem.ps1`
+- [ ] `Get-RestApiToken.ps1`
+- [ ] `Get-SmbShareAccess.ps1`
+- [ ] `Get-SystemEnvironmentVariable.ps1`
+- [ ] `Get-SystemHardwareInventory.ps1`
+- [ ] `Get-SystemMemoryDump.ps1`
+- [ ] `Get-WinAppLockerPolicy.ps1`
+- [ ] `Get-WinBitLockerVolume.ps1`
+- [ ] `Get-WinDhcpScope.ps1`
+- [ ] `Get-WinDiskVolume.ps1`
+- [ ] `Get-WinDnsZone.ps1`
+- [ ] `Get-WindowsAutopilotInfo.ps1`
+- [ ] `Get-WindowsFirewallProfile.ps1`
+- [ ] `Get-WindowsPerformanceCounter.ps1`
+- [ ] `Get-WindowsPrinterQueue.ps1`
+- [ ] `Get-WindowsScheduledTaskSummary.ps1`
+- [ ] `Get-WindowsServiceDependency.ps1`
+- [ ] `Get-WinEventForwarding.ps1`
+- [ ] `Get-WinFailoverCluster.ps1`
+- [ ] `Get-WinHyperVHost.ps1`
+- [ ] `Get-WinIisAppPool.ps1`
+- [ ] `Get-WinIisSite.ps1`
+- [ ] `Get-WinPerformanceMonitor.ps1`
+- [ ] `Get-WinPrintServer.ps1`
+- [ ] `Get-WinRdsFarm.ps1`
+- [ ] `Get-WinRegistryHive.ps1`
+- [ ] `Get-WinResourceMonitor.ps1`
+- [ ] `Get-WinServiceControl.ps1`
+- [ ] `Get-WinSmbShare.ps1`
+- [ ] `Get-WinStorageSpaces.ps1`
+- [ ] `Get-WinTaskScheduler.ps1`
+- [ ] `Get-WinWsusServer.ps1`
+- [ ] `Import-IISConfiguration.ps1`
+- [ ] `Invoke-GPUpdateRemote.ps1`
+- [ ] `Invoke-ParallelScriptBlock.ps1`
+- [ ] `Invoke-PsSessionRemote.ps1`
+- [ ] `Invoke-WinAppLockerPolicy.ps1`
+- [ ] `Invoke-WinBitLockerVolume.ps1`
+- [ ] `Invoke-WinDhcpScope.ps1`
+- [ ] `Invoke-WinDiskVolume.ps1`
+- [ ] `Invoke-WinDnsZone.ps1`
+- [ ] `Invoke-WindowsDiskCleanup.ps1`
+- [ ] `Invoke-WinEventForwarding.ps1`
+- [ ] `Invoke-WinFailoverCluster.ps1`
+- [ ] `Invoke-WinHyperVHost.ps1`
+- [ ] `Invoke-WinIisAppPool.ps1`
+- [ ] `Invoke-WinIisSite.ps1`
+- [ ] `Invoke-WinPerformanceMonitor.ps1`
+- [ ] `Invoke-WinPrintServer.ps1`
+- [ ] `Invoke-WinRdsFarm.ps1`
+- [ ] `Invoke-WinRegistryHive.ps1`
+- [ ] `Invoke-WinResourceMonitor.ps1`
+- [ ] `Invoke-WinServiceControl.ps1`
+- [ ] `Invoke-WinSmbShare.ps1`
+- [ ] `Invoke-WinStorageSpaces.ps1`
+- [ ] `Invoke-WinTaskScheduler.ps1`
+- [ ] `Invoke-WinWsusServer.ps1`
+- [ ] `New-SmbShare.ps1`
+- [ ] `New-WinAppLockerPolicy.ps1`
+- [ ] `New-WinBitLockerVolume.ps1`
+- [ ] `New-WinDhcpScope.ps1`
+- [ ] `New-WinDiskVolume.ps1`
+- [ ] `New-WinDnsZone.ps1`
+- [ ] `New-WinEventForwarding.ps1`
+- [ ] `New-WinFailoverCluster.ps1`
+- [ ] `New-WinHyperVHost.ps1`
+- [ ] `New-WinIisAppPool.ps1`
+- [ ] `New-WinIisSite.ps1`
+- [ ] `New-WinPerformanceMonitor.ps1`
+- [ ] `New-WinPrintServer.ps1`
+- [ ] `New-WinRdsFarm.ps1`
+- [ ] `New-WinRegistryHive.ps1`
+- [ ] `New-WinResourceMonitor.ps1`
+- [ ] `New-WinServiceControl.ps1`
+- [ ] `New-WinSmbShare.ps1`
+- [ ] `New-WinStorageSpaces.ps1`
+- [ ] `New-WinTaskScheduler.ps1`
+- [ ] `New-WinWsusServer.ps1`
+- [ ] `Remove-OldFile.ps1`
+- [ ] `Remove-PsSessionActive.ps1`
+- [ ] `Remove-RegistryKeyItem.ps1`
+- [ ] `Remove-SmbShare.ps1`
+- [ ] `Remove-SystemEnvironmentVariable.ps1`
+- [ ] `Remove-WinAppLockerPolicy.ps1`
+- [ ] `Remove-WinBitLockerVolume.ps1`
+- [ ] `Remove-WinDhcpScope.ps1`
+- [ ] `Remove-WinDiskVolume.ps1`
+- [ ] `Remove-WinDnsZone.ps1`
+- [ ] `Remove-WinEventForwarding.ps1`
+- [ ] `Remove-WinFailoverCluster.ps1`
+- [ ] `Remove-WinHyperVHost.ps1`
+- [ ] `Remove-WinIisAppPool.ps1`
+- [ ] `Remove-WinIisSite.ps1`
+- [ ] `Remove-WinPerformanceMonitor.ps1`
+- [ ] `Remove-WinPrintServer.ps1`
+- [ ] `Remove-WinRdsFarm.ps1`
+- [ ] `Remove-WinRegistryHive.ps1`
+- [ ] `Remove-WinResourceMonitor.ps1`
+- [ ] `Remove-WinServiceControl.ps1`
+- [ ] `Remove-WinSmbShare.ps1`
+- [ ] `Remove-WinStorageSpaces.ps1`
+- [ ] `Remove-WinTaskScheduler.ps1`
+- [ ] `Remove-WinWsusServer.ps1`
+- [ ] `Restart-CitrixVDA.ps1`
+- [ ] `Restart-IISAppPool.ps1`
+- [ ] `Send-SlackWebhookMessage.ps1`
+- [ ] `Send-SmtpEmailMessage.ps1`
+- [ ] `Set-FileArchiveAttribute.ps1`
+- [ ] `Set-IISSiteBinding.ps1`
+- [ ] `Set-RegistryKeyItem.ps1`
+- [ ] `Set-SystemEnvironmentVariable.ps1`
+- [ ] `Set-WinAppLockerPolicy.ps1`
+- [ ] `Set-WinBitLockerVolume.ps1`
+- [ ] `Set-WinDhcpScope.ps1`
+- [ ] `Set-WinDiskVolume.ps1`
+- [ ] `Set-WinDnsZone.ps1`
+- [ ] `Set-WindowsFirewallRule.ps1`
+- [ ] `Set-WindowsServiceRecovery.ps1`
+- [ ] `Set-WinEventForwarding.ps1`
+- [ ] `Set-WinFailoverCluster.ps1`
+- [ ] `Set-WinHyperVHost.ps1`
+- [ ] `Set-WinIisAppPool.ps1`
+- [ ] `Set-WinIisSite.ps1`
+- [ ] `Set-WinPerformanceMonitor.ps1`
+- [ ] `Set-WinPrintServer.ps1`
+- [ ] `Set-WinRdsFarm.ps1`
+- [ ] `Set-WinRegistryHive.ps1`
+- [ ] `Set-WinResourceMonitor.ps1`
+- [ ] `Set-WinServiceControl.ps1`
+- [ ] `Set-WinSmbShare.ps1`
+- [ ] `Set-WinStorageSpaces.ps1`
+- [ ] `Set-WinTaskScheduler.ps1`
+- [ ] `Set-WinWsusServer.ps1`
+- [ ] `Start-IISSite.ps1`
+- [ ] `Stop-IISSite.ps1`
+- [ ] `Stop-RDSSession.ps1`
+- [ ] `Test-WindowsSmbVersion.ps1`

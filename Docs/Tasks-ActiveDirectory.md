@@ -1,0 +1,176 @@
+# Tasks: ActiveDirectory
+
+## Fully Implemented
+- [x] `Add-M365MailboxPermission.ps1`
+- [x] `Find-ADServiceAccount.ps1`
+- [x] `Get-ADInactiveComputer.ps1`
+- [x] `Get-ADLockedOutUser.ps1`
+- [x] `Get-ADPasswordExpiration.ps1`
+- [x] `Get-ADPrivilegedUser.ps1`
+- [x] `Get-ADReplicationStatus.ps1`
+- [x] `Get-ADUserGroupMembership.ps1`
+- [x] `Get-ADUserTrueLastLogon.ps1`
+- [x] `Get-M365DisabledLicensedUser.ps1`
+- [x] `Get-M365GroupMember.ps1`
+- [x] `Get-M365SharePointUser.ps1`
+- [x] `Get-M365UserAlias.ps1`
+- [x] `Get-WindowsLocalAdmin.ps1`
+- [x] `Get-WindowsServerLoad.ps1`
+- [x] `Move-CMPrimaryUserDevice.ps1`
+- [x] `Move-M365OneDriveDataAdmin.ps1`
+- [x] `New-ADUserProvisioning.ps1`
+- [x] `Remove-ADInactiveComputer.ps1`
+- [x] `Remove-ADUserDeprovisioning.ps1`
+- [x] `Remove-WindowsUserProfile.ps1`
+- [x] `Reset-ADUserPassword.ps1`
+- [x] `Set-ADUserPhoto.ps1`
+- [x] `Set-M365UserLicense.ps1`
+- [x] `Test-ADAuthentication.ps1`
+- [x] `Unlock-ADUserAccount.ps1`
+
+## Stubs
+- [ ] `Add-ADGroupMemberBulk.ps1`
+- [ ] `Add-AWSSecurityGroupRule.ps1`
+- [ ] `Add-CMDeviceToCollection.ps1`
+- [ ] `Add-DnsServerRecord.ps1`
+- [ ] `Add-NetworkRoute.ps1`
+- [ ] `Add-SqlDatabaseUser.ps1`
+- [ ] `Connect-AzureRmAccountAuto.ps1`
+- [ ] `Copy-ADUserAttributes.ps1`
+- [ ] `Disable-AWSIamUser.ps1`
+- [ ] `Disconnect-CitrixUserSession.ps1`
+- [ ] `Find-AdUserPrivilegeEscalation.ps1`
+- [ ] `Find-CleartextPasswordFile.ps1`
+- [ ] `Get-AdCertificateTemplate.ps1`
+- [ ] `Get-ADComputerLAPS.ps1`
+- [ ] `Get-AdcsTemplate.ps1`
+- [ ] `Get-ADDeletedObject.ps1`
+- [ ] `Get-AdDNSZone.ps1`
+- [ ] `Get-AdDomainController.ps1`
+- [ ] `Get-AdDomainTrust.ps1`
+- [ ] `Get-AdFineGrainedPassword.ps1`
+- [ ] `Get-AdForestTrust.ps1`
+- [ ] `Get-AdFSMORole.ps1`
+- [ ] `Get-ADGPOReport.ps1`
+- [ ] `Get-AdGroupPolicyObject.ps1`
+- [ ] `Get-AdKerberosDelegation.ps1`
+- [ ] `Get-AdKerberosTicket.ps1`
+- [ ] `Get-AdLapsConfiguration.ps1`
+- [ ] `Get-AdManagedServiceAccount.ps1`
+- [ ] `Get-AdObjectPermission.ps1`
+- [ ] `Get-ADOrganizationalUnitTree.ps1`
+- [ ] `Get-AdPasswordPolicy.ps1`
+- [ ] `Get-AdReplicationTopology.ps1`
+- [ ] `Get-AdSchemaAttribute.ps1`
+- [ ] `Get-AdSiteLink.ps1`
+- [ ] `Get-AdSitesSubnet.ps1`
+- [ ] `Get-AdTrustProfile.ps1`
+- [ ] `Get-AdUserGroup.ps1`
+- [ ] `Get-ADUserLogonHistory.ps1`
+- [ ] `Get-AWSIamUserStatus.ps1`
+- [ ] `Get-BitLockerRecoveryKeyAD.ps1`
+- [ ] `Get-CitrixUserSession.ps1`
+- [ ] `Get-GPOBackup.ps1`
+- [ ] `Get-SPOUserPermissions.ps1`
+- [ ] `Get-SqlDatabaseUser.ps1`
+- [ ] `Get-TeamsUserActivity.ps1`
+- [ ] `Get-UserRegistryHive.ps1`
+- [ ] `Get-WindowsLapsPassword.ps1`
+- [ ] `Invoke-AdCertificateTemplate.ps1`
+- [ ] `Invoke-AdDNSZone.ps1`
+- [ ] `Invoke-AdDomainController.ps1`
+- [ ] `Invoke-AdDomainTrust.ps1`
+- [ ] `Invoke-AdFineGrainedPassword.ps1`
+- [ ] `Invoke-AdForestTrust.ps1`
+- [ ] `Invoke-AdFSMORole.ps1`
+- [ ] `Invoke-AdGroupPolicyObject.ps1`
+- [ ] `Invoke-AdKerberosDelegation.ps1`
+- [ ] `Invoke-AdKerberosTicket.ps1`
+- [ ] `Invoke-AdLapsConfiguration.ps1`
+- [ ] `Invoke-AdManagedServiceAccount.ps1`
+- [ ] `Invoke-AdObjectPermission.ps1`
+- [ ] `Invoke-AdPasswordPolicy.ps1`
+- [ ] `Invoke-AdReplicationTopology.ps1`
+- [ ] `Invoke-AdSchemaAttribute.ps1`
+- [ ] `Invoke-AdSiteLink.ps1`
+- [ ] `Invoke-AdSitesSubnet.ps1`
+- [ ] `Invoke-AdTrustProfile.ps1`
+- [ ] `Invoke-AdUserGroup.ps1`
+- [ ] `Invoke-TeamsUserProvisioning.ps1`
+- [ ] `Load-UserRegistryHive.ps1`
+- [ ] `New-AdCertificateTemplate.ps1`
+- [ ] `New-AdDNSZone.ps1`
+- [ ] `New-AdDomainController.ps1`
+- [ ] `New-AdDomainTrust.ps1`
+- [ ] `New-AdFineGrainedPassword.ps1`
+- [ ] `New-AdForestTrust.ps1`
+- [ ] `New-AdFSMORole.ps1`
+- [ ] `New-AdGroupPolicyObject.ps1`
+- [ ] `New-AdKerberosDelegation.ps1`
+- [ ] `New-AdKerberosTicket.ps1`
+- [ ] `New-AdLapsConfiguration.ps1`
+- [ ] `New-AdManagedServiceAccount.ps1`
+- [ ] `New-AdObjectPermission.ps1`
+- [ ] `New-AdPasswordPolicy.ps1`
+- [ ] `New-AdReplicationTopology.ps1`
+- [ ] `New-AdSchemaAttribute.ps1`
+- [ ] `New-AdSiteLink.ps1`
+- [ ] `New-AdSitesSubnet.ps1`
+- [ ] `New-AdTrustProfile.ps1`
+- [ ] `New-AdUserGroup.ps1`
+- [ ] `Remove-AdCertificateTemplate.ps1`
+- [ ] `Remove-AdDNSZone.ps1`
+- [ ] `Remove-AdDomainController.ps1`
+- [ ] `Remove-AdDomainTrust.ps1`
+- [ ] `Remove-AdFineGrainedPassword.ps1`
+- [ ] `Remove-AdForestTrust.ps1`
+- [ ] `Remove-AdFSMORole.ps1`
+- [ ] `Remove-ADGroupMemberBulk.ps1`
+- [ ] `Remove-AdGroupPolicyObject.ps1`
+- [ ] `Remove-AdKerberosDelegation.ps1`
+- [ ] `Remove-AdKerberosTicket.ps1`
+- [ ] `Remove-AdLapsConfiguration.ps1`
+- [ ] `Remove-AdManagedServiceAccount.ps1`
+- [ ] `Remove-AdObjectPermission.ps1`
+- [ ] `Remove-AdPasswordPolicy.ps1`
+- [ ] `Remove-AdReplicationTopology.ps1`
+- [ ] `Remove-AdSchemaAttribute.ps1`
+- [ ] `Remove-AdSiteLink.ps1`
+- [ ] `Remove-AdSitesSubnet.ps1`
+- [ ] `Remove-AdTrustProfile.ps1`
+- [ ] `Remove-AdUserGroup.ps1`
+- [ ] `Remove-SPOUserPermissions.ps1`
+- [ ] `Remove-SqlDatabaseUser.ps1`
+- [ ] `Remove-TeamsUserProvisioning.ps1`
+- [ ] `Restore-GPOBackup.ps1`
+- [ ] `Revoke-AdcsCertificate.ps1`
+- [ ] `Send-RDSUserMessage.ps1`
+- [ ] `Set-AdCertificateTemplate.ps1`
+- [ ] `Set-AdDNSZone.ps1`
+- [ ] `Set-AdDomainController.ps1`
+- [ ] `Set-AdDomainTrust.ps1`
+- [ ] `Set-AdFineGrainedPassword.ps1`
+- [ ] `Set-AdForestTrust.ps1`
+- [ ] `Set-AdFSMORole.ps1`
+- [ ] `Set-AdGroupPolicyObject.ps1`
+- [ ] `Set-AdKerberosDelegation.ps1`
+- [ ] `Set-AdKerberosTicket.ps1`
+- [ ] `Set-AdLapsConfiguration.ps1`
+- [ ] `Set-AdManagedServiceAccount.ps1`
+- [ ] `Set-AdObjectPermission.ps1`
+- [ ] `Set-AdPasswordPolicy.ps1`
+- [ ] `Set-AdReplicationTopology.ps1`
+- [ ] `Set-AdSchemaAttribute.ps1`
+- [ ] `Set-AdSiteLink.ps1`
+- [ ] `Set-AdSitesSubnet.ps1`
+- [ ] `Set-AdTrustProfile.ps1`
+- [ ] `Set-AdUserGroup.ps1`
+- [ ] `Set-ADUserManager.ps1`
+- [ ] `Set-TeamsUserPolicy.ps1`
+- [ ] `Set-WindowsLapsPassword.ps1`
+- [ ] `Stop-CitrixUserSession.ps1`
+- [ ] `Test-ADTrustRelationship.ps1`
+- [ ] `Test-GPOSettings.ps1`
+- [ ] `Test-PasswordComplexityRule.ps1`
+- [ ] `Test-RadiusServerAuthentication.ps1`
+- [ ] `Unload-UserRegistryHive.ps1`
