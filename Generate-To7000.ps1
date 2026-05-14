@@ -1,6 +1,6 @@
 $PublicPath = Join-Path $PSScriptRoot "Public"
 $DocsPath = Join-Path $PSScriptRoot "Docs"
-$TaskFile = "C:\Users\johna\.gemini\antigravity\brain\52d269ef-589f-4f86-9a56-bda365825a15\task.md"
+$TaskFile = "C:\Users\johna\.gemini\antigravity\brain\e35f20ce-a832-4a83-a065-4b315fa16530\task.md"
 
 if (-not (Test-Path $DocsPath)) {
     New-Item -ItemType Directory -Path $DocsPath | Out-Null

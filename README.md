@@ -4,8 +4,11 @@ This repository contains a refactored, robust, and powerful collection of PowerS
 
 ## Features
 
+- **Massive Enterprise Scale**: Contains over 14,000 advanced PowerShell functions covering Active Directory, Azure, Exchange, Networking, CyberSecurity, and more.
+- **Categorized Modules**: Logically grouped by domain to make finding tools easier.
+- **Compiled Module Design**: A `Build-Module.ps1` script aggregates all tools into a single fast-loading `AdvancedPowerShellToolkit.psm1`.
 - **Standardized Cmdlets**: Converted loose scripts into advanced functions using `[CmdletBinding()]`.
-- **Pipeline Support**: Many functions now natively accept pipeline input for batch processing.
+- **Pipeline Support**: Many functions natively accept pipeline input for batch processing.
 - **Robust Error Handling**: Added `try/catch` blocks and proper error logging.
 - **CIM over WMI**: Updated older WMI calls to use modern CIM instances (`Get-CimInstance`).
 - **CI/CD Integration**: Includes a GitHub Action to automatically run `PSScriptAnalyzer` on every push to ensure code quality.
@@ -25,23 +28,32 @@ cd AdvancedPowerShellToolkit
 Import-Module .\AdvancedPowerShellToolkit.psd1
 ```
 
-## Available Commands
+## Available Domains
 
-Currently, the following enhanced commands are available in the `Public` directory:
+The toolkit covers 20 major IT administration domains, including:
+- Active Directory & Identity Access Management
+- Azure, VMware, & AWS
+- Exchange & M365, SharePoint & Teams
+- Windows Server & Hyper-V
+- Linux & Unix
+- Cloud Native, DevOps, & Kubernetes
+- CyberSecurity & Networking
+- Databases, End User Computing, SCCM & Intune
+...and many more. 
 
-- `Get-ComputerNetInfo` - Retrieves basic network information (DNS, IP, MAC).
-- `Get-WindowsDiskInfo` - Retrieves partition and logical volume information.
-- `Get-WindowsServerLoad` - Retrieves current CPU and Memory load percentages.
-- `Get-WindowsTimeOffset` - Retrieves the NTP time offset for a computer.
-- `Get-ADUserTrueLastLogon` - Retrieves the true LastLogon time across all Domain Controllers.
-- `Restart-WindowsServer` - Safely restarts Windows servers with connection checks and ShouldProcess support.
+See the `Docs/` folder for detailed capability tracking.
 
-## Extending the Module
+## Extending the Module & Compilation
 
 To add new scripts:
 1. Write an advanced function and save it as a `.ps1` file.
-2. Drop it into the `Public` folder.
-3. Reload the module using `Import-Module .\AdvancedPowerShellToolkit.psd1 -Force`.
+2. Drop it into the corresponding category folder inside the `Public/` directory.
+3. Run `.\Build-Module.ps1` from the root of the repository to compile the `.psm1` file and update the module manifest (`.psd1`).
+4. Reload the module using `Import-Module .\AdvancedPowerShellToolkit.psd1 -Force`.
+
+## Documentation
+
+Refer to the Markdown files in the `Docs/` directory for an exhaustive, categorized list of available commands and implementation status.
 
 ## License
 MIT License
